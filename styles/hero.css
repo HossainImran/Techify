@@ -1,0 +1,368 @@
+/******************** Hero Section Start ******************/
+
+.hero {
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 100%;
+}
+
+.hero__content {
+  width: 90%;
+  height: 500px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.hero-section-1 {
+  background: linear-gradient(to right, rgb(19, 4, 40), rgb(18, 68, 112));
+  grid-row: span 4;
+  grid-column: span 4;
+  justify-content: space-between;
+}
+
+.details__1 {
+  margin-left: 70px;
+}
+
+.details__1 h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.details__1 p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.details__1 button {
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.details__1 button:hover,
+.image__1:hover,
+.image__2:hover,
+.image__3:hover,
+.deals_image:hover,
+.products_items:hover {
+  transform: translateY(-5px);
+}
+
+.sale__off {
+  margin-bottom: 30px;
+}
+
+.sale__off h1 {
+  color: red;
+  font-size: 70px;
+  margin-right: 15px;
+}
+
+.sale__off h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.image__1 {
+  width: 350px;
+  user-select: none;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.hero-section-2, 
+.hero-section-3 {
+  background-color: rgb(255, 255, 255);
+  grid-row: span 2;
+  grid-column: span 2;
+  justify-content: space-between;
+}
+
+.details__2,
+.details__3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  margin-left: 20px;
+}
+
+.name h3 {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.name h3:hover{
+  text-decoration: underline;
+}
+
+.price p {
+  font-size: 13px;
+  color: #786c6c;
+  margin-bottom: 4px;
+}
+
+.price h1 {
+  font-size: 30px;
+  color: rgb(116, 81, 16);
+}
+
+.price span {
+  font-size: 21px;
+  font-weight: 400;
+  color: #786c6c;
+  text-decoration: line-through;
+}
+
+.image__2 {
+  width: 120px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.hero-section-3 {
+  background-color: white;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.hero-section-4 {
+  grid-column: span 6;
+  display: flex;
+}
+
+.hero-titles {
+  flex: 1;
+  gap: 10px;
+} 
+
+.image__3 {
+  width: 170px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.hero-icon i{
+  font-size: 22px;
+}
+
+.hero-subtitles h5 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-subtitles p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #786c6c;
+}
+
+
+/******************** Hero Section End ******************/
+
+
+/******************** making the page responsive ******************/
+
+@media (max-width: 1350px) {
+  .details__1 h3 {
+    font-size: 12px;
+  }
+  .image__1{
+    width: 200px;
+  }
+  .image__2{
+    width: 80px;
+  }
+  .image__3 {
+    width: 100px;
+  }
+  .sale__off h1 {
+    font-size: 50px;
+  }
+  .sale__off h2 {
+    font-size: 20px;
+  }
+  .details__1 p {
+    font-size: 10px;
+  }
+  .details__1 button {
+    padding: 8px 18px;
+    font-size: 10px;  
+  }
+  .name h3 {
+    font-size: 15px;
+  }
+  .price h1 {
+    font-size: 24px;
+  }
+  .hero-titles {
+    gap: 5px;
+  }
+  .hero-icon i {
+    font-size: 18px;
+  }
+  .hero-subtitles h5 {
+    font-size: 10px;
+  }
+  .hero-subtitles p{
+    font-size: 8px;
+  }
+  .details__1 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 920px) {
+  .image__1 {
+    width: 130px;
+  }
+  .sale__off h1 {
+    font-size: 30px;
+  }
+  .sale__off h2 {
+    font-size: 12px;
+  }
+  .details__1 h3 {
+    font-size: 8px;
+  }
+  .details__1 p {
+    font-size: 6px;
+    margin-bottom: 20px;
+  }
+  .details__1 button {
+    padding: 6px 8px;
+    font-size: 6px;
+  }
+  .hero__content {
+    height: 400px;
+  }
+  .name h3 {
+    font-size: 10px;
+  }
+  .price h1 {
+    font-size: 15px;
+  }
+  .price p {
+    font-size: 8px;
+  }
+  .image__2{
+    width: 40px;
+  }
+  .image__3 {
+    width: 50px;
+  }
+  .hero-icon i {
+    font-size: 12px;
+  }
+  .hero-subtitles h5 {
+    font-size: 7px;
+  }
+  .hero-subtitles p{
+    font-size: 4px;
+  }
+  .details__1 {
+    margin-left: 30px;
+  }
+  .details__2 , 
+  .details__3 {
+    margin-left: 15px;
+    row-gap: 25px;
+  }
+  .price span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 580px) {
+  .image__1 {
+    width: 60px;
+  }
+  .sale__off h1 {
+    font-size: 30px;
+  }
+  .sale__off h2 {
+    font-size: 12px;
+  }
+  .details__1 h3 {
+    font-size: 8px;
+  }
+  .details__1 p {
+    font-size: 4px;
+    margin-bottom: 10px;
+  }
+  .details__1 button {
+    padding: 4px 6px;
+    font-size: 4px;
+  }
+  .hero-section-2, 
+  .hero-section-3 {
+    grid-column: span 3;
+  }
+  .sale__off{
+    margin-bottom: 10px;
+  }
+  .name h3 {
+    font-size: 10px;
+  }
+  .price h1 {
+    font-size: 10px;
+  }
+  .price span {
+    font-size: 9px;
+  }
+  .price p {
+    font-size: 6px;
+    margin-bottom: 0px;
+  }
+  .image__2{
+    width: 40px;
+  }
+  .image__3 {
+    width: 40px;
+  }
+  .hero-icon i {
+    font-size: 8px;
+  }
+  .hero-subtitles h5 {
+    font-size: 3px;
+  }
+  .hero-subtitles p{
+    font-size: 2px;
+  }
+  .details__1 {
+    margin-left: 10px;
+  }
+  .details__2 , 
+  .details__3 {
+    margin-left: 4px;
+    row-gap: 70px;
+  }
+  .hero-section-1 {
+    grid-row: span 3;
+    grid-column: span 6;
+  }
+  .hero__content {
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 360px) {
+  .image__2 {
+    width: 25px;
+  }
+  .image__3 {
+    width: 30px;
+  }
+}

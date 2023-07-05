@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techify</title>
+  <link rel="stylesheet" href="styles/modern-normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/deals.css">
+  <link rel="stylesheet" href="styles/products.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+
+    <!------------------------- Nav Section Start ------------------->
+
+    <nav class="flexbox container">
+      <div class="nav__logo">
+        <h1>techify</h1>
+      </div>
+
+      <div class="nav__menu flexbox">
+        <i class="fa-solid fa-bars"></i>
+        <h4>Menu</h4>
+      </div>
+
+      <div class="input__section flexbox">
+        <select name="ALL CatEGORIES" id="">
+          <option value="">ALL CATEGORIES</option>
+        </select>
+        <hr>
+        <input type="text" placeholder="I'm shopping for...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <div class="account__section flexbox">
+        <div class="icon__section">
+          <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="details__section">
+          <p class="top-element">ACCOUNT</p>
+          <p class="bottom-element">Sign In</p>
+        </div>
+      </div>
+
+      <div class="cart__section  flexbox">
+        <div class="icon__section">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="details__section">
+          <p class="top-element">CART</p>
+          <p class="bottom-element">$1520</p>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------- Nav Section End ------------------->
+
+    <div class="line"></div>
+
+    <!------------------------- Panal Section Start------------------->
+
+    <div class="panal__section flexbox container">
+      <div class="panal-items flexbox">
+        <div class="items">
+          <i class="fa-solid fa-star"></i>
+          <p>Top Popular</p>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-bolt"></i>
+          <p>Flash Sell</p>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-tv"></i>
+          <p>TV & Video</p>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <p>Cell Phones</p>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-tablet-screen-button"></i>
+          <p>IPad & Tablets</p>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-desktop"></i>
+          <p>Computer</p>
+        </div>
+      </div>
+      <div class="panal-status flexbox">
+        <div class="status">
+          <i class="fa-solid fa-rotate"></i>
+          <p>Recently Viewed</p>
+        </div>
+        <div class="status">
+          <i class="fa-regular fa-heart"></i>
+          <p>Save Items</p>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------- Panal Section End ------------------->
+    
+  </header>
+  <main>
+
+    <!------------------------- Hero Section Start ------------------->
+    
+    <section class="hero">
+      <div class="hero__content container">
+        <div class="hero-section-1 border flexbox">
+          <div class="details__1">
+            <div class="sale__off flexbox">
+              <h1>30%</h1>
+              <h2>SALE<br>OFF</h2>
+            </div>
+            <h3>DualSense Wireless <br> Controller</h3>
+            <p>Experience immersive haptic feedback, dynamic adaptive <br>triggers and a built-in microphone</p>
+            <button>Shop now</button>
+          </div>
+          <div class="image">
+            <img class="image__1" src="images/controller.svg" alt="">
+          </div>
+        </div>
+        <div class="hero-section-2 border flexbox">
+          <div class="details__2">
+            <div class="name">
+              <h3>IPhone 14 Pro Max</h3>
+            </div>
+            <div class="price">
+              <p>Limited Time Offer</p>
+              <h1>$699 <span>$999</span></h1>
+            </div>
+          </div>
+          <div class="image">
+            <img class="image__2" src="images/phone.svg" alt="">
+          </div>
+        </div>
+        <div class="hero-section-3 border flexbox">
+          <div class="details__3">
+            <div class="name">
+              <h3>Apple Vision Pro</h3>
+            </div>
+            <div class="price">
+              <p>Limited Time Offer</p>
+              <h1>$699 <span>$999</span></h1>
+            </div>
+          </div>
+          <div class="image">
+            <img class="image__3" src="images/vr.svg" alt="">
+          </div>
+        </div>
+        <div class="hero-section-4 border">
+          <div class="hero-titles flexbox">
+            <div class="hero-icon">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="hero-subtitles">
+              <h5>Free Shipping</h5>
+              <p>For all order over $200</p>
+            </div>
+          </div>
+          <div class="hero-titles flexbox">
+            <div class="hero-icon">
+              <i class="fa-solid fa-rotate"></i>
+            </div>
+            <div class="hero-subtitles">
+              <h5>1 & 1 Returns</h5>
+              <p>Cancellation after 1 day</p>
+            </div>
+          </div>
+          <div class="hero-titles flexbox">
+            <div class="hero-icon">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+            <div class="hero-subtitles">
+              <h5>100% Secure Payment</h5>
+              <p>Gurantee secure payments</p>
+            </div>
+          </div>
+          <div class="hero-titles flexbox">
+            <div class="hero-icon">
+              <i class="fa-solid fa-life-ring"></i>
+            </div>
+            <div class="hero-subtitles">
+              <h5>24/7 Dedicated Support</h5>
+              <p>Anywhere & anytime</p>
+            </div>
+          </div>
+          <div class="hero-titles flexbox">
+            <div class="hero-icon">
+              <i class="fa-solid fa-ticket"></i>
+            </div>
+            <div class="hero-subtitles">
+              <h5>Daily Offers</h5>
+              <p>Discount up to 70%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------- Hero Section End ------------------->
+
+    <section class="deals">
+
+      <!----------------------- Deals Section Start -------------------->
+
+      <div class="deals__section container">
+        <div class="categories_section flexbox">
+          <h3 class="browse-title">Browse by Categories</h3>
+          <div class="arrow-btn">
+            <button><</button>
+            <button>></button>
+          </div>
+        </div>
+      </div>
+      <div class="deals_product__section container flexbox">
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals1.png">
+          <p class="deals_title">Top Deals</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals2.png">
+          <p class="deals_title">Clearance</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals3.png">
+          <p class="deals_title">Television</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals4.png">
+          <p class="deals_title">Laptop & PC</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals5.png">
+          <p class="deals_title">Games & Console</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals6.png">
+          <p class="deals_title">Mobile & Tablets</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals7.png">
+          <p class="deals_title">Accessories</p>
+        </div>
+        <div class="deals_product">
+          <img class="deals_image" src="images/deals8.png">
+          <p class="deals_title">Home Appliances</p>
+        </div>
+      </div>
+
+      <!----------------------- Deals Section End -------------------->
+      
+      <!----------------------- Products Section Start -------------------->
+
+      <div class="products">
+        <div class="products__section container">
+          <div class="products_heading">
+            <h3 class="products_title">Best Sellers</h3>
+            <a class="all_products" href="#">All Products</a>
+          </div>
+
+          <div class="products_section_items flexbox">
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product1.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product2.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product3.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product4.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product5.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product6.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="products">
+        <div class="products__section container">
+          <div class="products_heading">
+            <h3 class="products_title">Trending Items</h3>
+            <a class="all_products" href="#">All Products</a>
+          </div>
+
+          <div class="products_section_items flexbox">
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product1.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product2.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product3.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product4.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product5.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product6.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products__section container">
+          <div class="products_heading">
+            <h3 class="products_title">New Arrivals</h3>
+            <a class="all_products" href="#">All Products</a>
+          </div>
+
+          <div class="products_section_items flexbox">
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product1.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product2.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product3.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product4.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product5.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+            
+            <div class="products_items">
+              <div class="img"><img class="products_image" src="images/product6.png"></div> 
+              <div class="details">
+                <p class="products_name">Lorem ipsum dolor sit amet consectetur </p>
+                <h3 class="products_price">$666</h3>
+              </div>
+              <div class="btn">
+                <button class="add_btn">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------------------- Products Section End -------------------->
+
+    </section>
+  </main>
+
+  <!----------------------- Footer Section Start -------------------->
+  
+  <footer>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </footer>
+
+  <!----------------------- Footer Section End -------------------->
+  
+</body>
+</html>
